@@ -1,0 +1,53 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(red, green, blue);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 50%;
+}
+th,td{
+    border: 4px groove;
+    padding: 8px 10px;
+}
+
+.imagem_padrao{
+    width: 150px;
+    height: 150px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.checkbox {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8f7;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input[type="number"] {
+    width: 50px;
+}
+thead{
+background-color: burlywood;
+}
+tbody{
+    background-color: beige;
+}
+
